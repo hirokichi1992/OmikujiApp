@@ -3,18 +3,28 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>おみくじ</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <section>
+    <header>
         <div class="container">
-            <h1>おみくじを引いてみよう</h1>
-            <p>赤いボタンを押してみよう</p>
-            <div id="btn">押す</div>
-            <div id="result"></div>
+            <div class="info">
+                <h1>おみくじ</h1>
+                <p>今日の運勢を占おう</p>
+            </div>
+            <div class="pic">
+                <img src="img/omikuji.png" alt="おみくじの画像">
+            </div>
         </div>
+    </header>
+
+    <section>
+        <h1>↓↓↓運勢を占う↓↓↓</h1>
+        <div id="btn">押す</div>
+        <p id="result" class="result"></p>
     </section>
     <script src="js/main.js">
     </script>
